@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 h1 {
@@ -27,13 +28,30 @@ h2 {
 h3 {
     font-family: 'Oswald';
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
-    margin: 5px 0;
+    margin: 0 0 40px;
     padding: 0;
     z-index: 1;
     position: relative;
+    color: #fff;
 }
+
+h4{
+    color: #4985A0;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link{color: #000;}
+a:hover{background: #94a4a4;}
+a{text-decoration: none;}
 
 .center {
     margin: 0 auto;
@@ -156,7 +174,6 @@ h3 {
     margin: 8px auto 0;
     display: block;
     position: relative;
-    top: -38px;
 }
 
 #snowflakes1 {
@@ -195,8 +212,8 @@ h3 {
 }
 
 #slide2 {
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #109085;;
+    color: #fff;
     height: 300px;
     margin: 0 auto;
     overflow: hidden;
@@ -209,13 +226,6 @@ h3 {
     height: 600px;
     padding: 170px 0 0 0;
     background-size: cover;
-}
-
-#slide4 {
-    background-color: #ffffff;
-    color: #333333;
-    height: 900px;
-    padding: 200px 0;
 }
 
 #slide5 {
@@ -238,6 +248,14 @@ h3 {
 #copyright a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.info-des{
+    text-align: center;
+    line-height: 24px;
+    padding-top: 50px;
+    font-size: 18px;
+    color: #fff;
 }
 
 

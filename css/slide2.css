@@ -1,0 +1,36 @@
+.info-list{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.info-list .info-item{
+    list-style: none;
+    width: 100px;
+    margin: 0 45px;
+}
+
+.info-list .img{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.info-list .img img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    position: absolute;
+    left: 22px;
+    top: 22px;
+}
+
+.info-list .intro{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}

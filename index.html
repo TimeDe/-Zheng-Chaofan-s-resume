@@ -10,6 +10,10 @@
     <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide2.css">
+    <link rel="stylesheet" href="css/slide3.css">
+    <link rel="stylesheet" href="css/slide4.css">
+    <link rel="stylesheet" href="css/slide5.css">
     <script src="js/jquery-3.2.0.min.js"></script>
 </head>
 <body>
@@ -45,42 +49,147 @@
 <div id="slide2">
     <div class="content">
         <div class="quotes_container">
-            <h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought,
-                doesn't come from a store. What if Christmas...perhaps...means a little bit more!”,坎坎坷坷</h3>
-            <img src="img/dr-seuss.png" align="left"/>
-            <h4 class="author_name_white">Dr. Seuss </h4>
+            <h3>关于我</h3>
+            <div class="info-content">
+                <div>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <div class="cont">
+                                <div class="img"><img src="img/i_age.svg" alt=""></div>
+                                <div class="intro">
+                                    <span class="item-value">年龄</span>
+                                    /
+                                    <span class="item-value">22</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="info-item">
+                            <div class="cont">
+                                <div class="img"><img src="img/i_edu.svg" alt=""></div>
+                                <div class="intro">
+                                    <span class="item-value">学历</span>
+                                    /
+                                    <span class="item-value">本科</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="info-item">
+                            <div class="cont">
+                                <div class="img"><img src="img/i_site.svg" alt=""></div>
+                                <div class="intro">
+                                    <span class="item-value">坐标</span>
+                                    /
+                                    <span class="item-value">北京</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="info-item">
+                            <div class="cont">
+                                <div class="img"><img src="img/i_status.svg" alt=""></div>
+                                <div class="intro">
+                                    <span class="item-value">状态</span>
+                                    /
+                                    <span class="item-value">离职</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-des">
+                    <p class="des">掌握基本前端技能</p>
+                    <p class="des">具有自学习能力,具有独立解决问题的能力</p>
+                    <p class="des">偏向于简洁代码,可复用代码</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <div id="slide3">
     <div class="content">
-        <div class="quotes_container">
-            <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas
-                songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.” </h3>
-            <img src="img/norman.png" align="left"/>
-            <h4 class="author_name_white">Norman Vincent Peale </h4>
+        <h3>技能栈</h3>
+        <canvas id="canvas" width="960" height="960" style="width: 320px;height: 320px;"></canvas>
+        <div class="info-des">
+            <p class="des">熟练使用html,css构建静态页面</p>
+            <p class="des">熟练使用javascript进行原生开发</p>
+            <p class="des">了解前后端交互形式,了解网络传输协议</p>
+            <p class="des">了解angular等MVC框架</p>
         </div>
     </div>
 </div>
 <div id="slide4">
     <div class="content">
-        <div class="quotes_container">
-            <h3 class="quotes">“Christmas doesn't come from a store, maybe Christmas perhaps means a little bit
-                more....” </h3>
-            <img src="img/dr-seuss.png" align="left"/>
-            <h4 class="author_name_gray">Dr. Seuss </h4>
-        </div>
+        <h3>作品集</h3>
+        <ul class="work-list">
+            <li class="work-item">
+                <h4>100du商城</h4>
+                <p class="work-des">
+                    运用前端基本的技术，div + css完成静态布局，使用jquery完成动态效果，利用模块化布局思想，实现了样式的重用，简化代码量，完成的一个电商网站。通过这个网站的制作过程学习到了基本的电商网站制作过程，同时加深了对命名规范，代码规范的理解。
+                </p>
+                <a href="https://timede.github.io/project/100du商城/index.html" target="_blank" class="work-link">
+                    <img src="img/w_link.svg">
+                </a>
+            </li>
+            <li class="work-item">
+                <h4>圣诞主题动画</h4>
+                <p class="work-des">
+                    在该项目中，主要运用h5新增的canvas绘制雪花动画,利用audio进行视频播放,使用了CSS3制作动画效果,该项目采用观察者和原型的设计模式,对页面进行监控和页面流程的控制,动画效果采用雪碧图的定位实现,整体呈现完整的动画效果。
+                </p>
+                <a href="https://timede.github.io/christmas/app/index.html" target="_blank" class="work-link">
+                    <img src="img/w_link.svg">
+                </a>
+            </li>
+            <li class="work-item">
+                <h4>H5音乐可视化APP</h4>
+                <p class="work-des">
+                    在该项目中,利用html5新增的webAudio提供的API,完成音乐可视化的动感效果,
+                    其中AudioBufferSourceNode提供了音频的start方法,可控制音乐的播放,AudioDestinationNode汇聚所有的音频数据,AnalyserNode对音频数据进行分析之后交给canvas进行图形的绘制,整套结合起来就实现了音乐的可视化效果。
+                </p>
+                <a href="https://github.com/TimeDe/music" target="_blank" class="work-link">
+                    <img src="img/w_link.svg">
+                </a>
+            </li>
+            <li class="work-item">
+                <h4>web前端工程师简历</h4>
+                <p class="work-des">
+                    简单的视觉差特效网站简历,主要利用背景图定位与窗口滚动速度控制完成视觉差,部分模块采用了canvas绘图,图形样式有待改善......
+                </p>
+                <a href="https://timede.github.io/-Zheng-Chaofan-s-resume/" target="_blank" class="work-link">
+                    <img src="img/w_link.svg">
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
 <div id="slide5">
     <div class="content">
-        <div class="quotes_container">
-            <h3 class="quotes">“My idea of Christmas, whether old-fashioned or modern, is very simple: loving others.
-                Come to think of it, why do we have to wait for Christmas to do that?” </h3>
-            <img src="img/bob.png" align="left"/>
-            <h4 class="author_name_white">Bob Hope </h4>
+        <h3>联系我</h3>
+        <div class="contact-info">
+            <div class="contact-des1">
+                <span class="des-item">兴趣</span>
+                <span class="des-item">能力</span>
+                <span class="des-item">学习</span>
+                <span class="des-item">效率</span>
+            </div>
+            <div class="contact-des2">
+                <p class="des-list">兴趣是最好的驱动力</p>
+                <p class="des-list">在工作中不断学习进步</p>
+                <p class="des-list">注重效率，注重质量</p>
+            </div>
+            <div class="contact-type">
+                <a href="https://github.com/TimeDe" target="_blank" class="item">
+                    <img src="img/s_github.svg" alt="github">
+                </a>
+                <a href="http://weibo.com/5291645056/profile?topnav=1&wvr=6&is_all=1" target="_blank" class="item">
+                    <img src="img/s_blog.svg" alt="微博">
+                </a>
+                <a href="https://www.zhihu.com/people/zheng-chao-fan-60/activities" target="_blank" class="item">
+                    <img src="img/s_zh.svg" alt="知乎">
+                </a>
+                <a href="http://weibo.com/5291645056/profile?topnav=1&wvr=6&is_all=1" target="_blank" class="item">
+                    <img src="img/s_wb.svg" alt="微博">
+                </a>
+            </div>
         </div>
-        <div id="copyright"><a href="#">Copyright 1stwebdesigner.com </a></div>
     </div>
 </div>
 <script src="js/index.js"></script>
